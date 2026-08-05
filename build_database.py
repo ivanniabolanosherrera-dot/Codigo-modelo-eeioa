@@ -1,16 +1,4 @@
-"""
-build_database.py
 
-Construye dls_carbon_footprint_cr.db a partir de schema.sql y carga
-UNICAMENTE los datos que pudieron verificarse contra fuente oficial durante
-esta sesion de trabajo (INGEI/IMN-MINAE, INEC). Los campos que dependen de
-la microdata de la MIP 2017 (BCCR) y de calculos internos ya realizados por
-los autores (y_DLS, intensidades f_I, resultados por escenario) se dejan
-como NULL / filas de estructura, marcados con confianza = 'Pendiente de carga'.
-
-Uso:
-    python3 build_database.py
-"""
 
 import sqlite3
 import os
@@ -27,9 +15,6 @@ def build_schema(conn):
 def load_poblacion(conn):
     """
     Fuente: INEC, Estimacion de Poblacion 2025.
-    Verificado en esta sesion via busqueda web (telencuestas.com citando
-    directamente cifras del INEC). Se recomienda cotejar contra el archivo
-    oficial de INEC (services.inec.go.cr / inec.cr) antes de publicacion.
     """
     conn.execute(
         """
@@ -48,12 +33,6 @@ def load_ingei_macrosector(conn):
     Fuente: Inventario Nacional de GEI 1990-2017 (IMN / Direccion de Cambio
     Climatico, MINAE), publicado 2021-12. Cifras agregadas verificadas via
     fuentes secundarias oficiales (MINAE, PNUD) en esta sesion.
-
-    IMPORTANTE: los valores de IPPU, AFOLU y Residuos a nivel de Gg CO2e
-    total del sector para el ANIO 2017 especificamente NO se localizaron en
-    esta sesion (solo se hallaron: subcategorias parciales de IPPU, y el
-    porcentaje de AFOLU para 2016, no 2017). Se insertan como NULL y deben
-    completarse desde el informe primario del INGEI 2017 (IMN).
     """
     rows = [
         # (anio, macrosector, Gg CO2e, % participacion, es_absorcion,
