@@ -10,14 +10,6 @@ descrito en la seccion 3.2 del paper:
     e_pc = E_DLS / P                        [emisiones per capita]
     brecha_pct = (e_pc - umbral) / umbral * 100
 
-Este modulo es agnostico a la fuente de los datos: recibe matrices/vectores
-numpy y no contiene ningun dato de Costa Rica embebido. Los datos reales
-(matriz A de 144x144, vector f_I, vector y_DLS) deben cargarse desde la
-base de datos (dls_carbon_footprint_cr.db) una vez que las tablas
-mip_coeficiente_tecnico, intensidad_emision y y_dls_demanda esten completas.
-
-Ver test_synthetic.py para una demostracion de funcionamiento con una
-economia sintetica de 5 sectores (NO son datos de Costa Rica).
 """
 
 from dataclasses import dataclass
@@ -67,9 +59,7 @@ def construir_matriz_A(flujos_intermedios: np.ndarray,
 
 def inversa_leontief(A: np.ndarray) -> np.ndarray:
     """
-    Calcula (I - A)^-1. Lanza error explicito si la matriz es singular o
-    si A no cumple la condicion de viabilidad economica (suma de columnas
-    < 1), lo cual senala un problema de calidad de dato, no del modelo.
+    Calcula (I - A)^-1.
     """
     n = A.shape[0]
     I = np.eye(n)
