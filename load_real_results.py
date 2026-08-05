@@ -1,33 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-load_real_results.py
 
-Carga en dls_carbon_footprint_cr.db los datos de las Tablas 1-5 que ya fueron
-calculados en sesiones de trabajo previas de este mismo proyecto (mayo 2026),
-recuperadas via conversation_search. Estas cifras son resultados propios del
-modelo EEIOA de los autores (Otoya Chavarría et al.), construidos sobre:
-  - MIP 2017 (BCCR, Cuentas Nacionales, enero 2020)
-  - INGEI 1990-2017 (IMN/MINAE/DCC, diciembre 2021)
-  - ENIGH 2018 (INEC, noviembre 2019)
-  - Gasto público sectorial 2017 (Ministerio de Salud, MIDEPLAN/BCCR)
-  - Poblacion 2025 (INEC)
-
-No son datos de fuente oficial primaria en si mismos (son output del modelo,
-no input), por lo que se cargan con fuente = 'Estimacion propia EEIOA
-(sesion de trabajo previa, mayo 2026)' y confianza = 'Media', salvo las
-emisiones directas por sector que provienen directamente del INGEI
-(confianza 'Alta').
-
-IMPORTANTE - limitacion heredada y no resuelta: la matriz de coeficientes
-tecnicos A (144x144) y la matriz de flujos Z no estan disponibles a este
-nivel de detalle en las sesiones previas (solo se recuperaron los outputs
-agregados por sector). Por lo tanto este script NO reconstruye (I-A)^-1
-desde cero: carga directamente los resultados agregados ya calculados
-(direct/indirecto/total por sector) en resultado_huella, y usa
-eeioa_model.emisiones_per_capita / brecha_climatica para RE-EJECUTAR y
-verificar (no solo copiar) los indicadores derivados (per capita, brecha,
-% indirectas), como control de calidad.
-"""
 
 import sqlite3
 from datetime import date
@@ -35,7 +7,7 @@ from datetime import date
 from eeioa_model import emisiones_per_capita, brecha_climatica
 
 DB_PATH = "dls_carbon_footprint_cr.db"
-FUENTE_MODELO = "Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al."
+FUENTE_MODELO = "Estimacion propia EEIOA"
 FECHA_MODELO = "2026-05-23"
 
 
