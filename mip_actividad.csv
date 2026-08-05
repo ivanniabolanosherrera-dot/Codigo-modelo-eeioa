@@ -1,0 +1,19 @@
+codigo_actividad,nombre_actividad,codigo_ciiu_rev4,grupo_dls,valor_produccion_bruta_mm_colones,fuente,confianza
+A01-A03,Agropecuario y pesca,A01-A03,ALIM,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+C10-C12,Industria alimentaria,C10-C12,ALIM,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+C13-C33_ex,Manufactura general (excl. alimentaria),C13-C33,VIV,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+D35,Suministro de electricidad,D35,ENER,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+E36-E39,"Agua, alcantarillado y residuos",E36-E39,AGUA,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+F41-F43,Construccion,F41-F43,VIV,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+G45-G47,Comercio al por mayor y menor,G45-G47,ALIM,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+H49,Transporte terrestre,H49,TRAN,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+H50-H51,Transporte acuatico y aereo,H50-H51,TRAN,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+H52-H53,Almacenamiento y correo,H52-H53,ALIM,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+J58-J63,Informacion y comunicaciones,J58-J63,TIC,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+Q86,Actividades de atencion de salud,Q86,SALUD,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+Q87-Q88,Asistencia en establecimientos / social,Q87-Q88,SALUD,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+P85,Educacion,P85,EDU,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+L68,Actividades inmobiliarias,L68,VIV,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+C19,Refinacion de petroleo,C19,ENER,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+O84,Administracion publica y defensa,O84,SALUD,,BCCR - MIP 2017 (agregacion propia de 144 AE en 17 grupos),Media
+E36-E39_agua,Agua y alcantarillado (subcomponente),E36-E37,AGUA,,BCCR - MIP 2017 (agregacion propia),Media

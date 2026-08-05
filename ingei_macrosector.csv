@@ -1,0 +1,7 @@
+id,anio,macrosector_ipcc,emisiones_gg_co2e,pct_participacion,es_absorcion,fuente,fecha_fuente,confianza,nota
+1,2017,Energia,7981.6,55.1,0,"IMN/MINAE - Direccion de Cambio Climatico, INGEI 1990-2017",2021-12-01,Alta,"Incluye transporte, industrias energeticas, manufactura/construccion, otras."
+2,2017,IPPU,,,0,IMN/MINAE - INGEI 1990-2017,2021-12-01,Baja,"Total del macrosector 2017 no localizado en esta sesion; solo se verifico la subcategoria refrigeracion y aire acondicionado = 633.7 Gg CO2e (2017), y que el sector aporto 12% del CO2 total segun una fuente secundaria (ladatacuenta.com, sin especificar año)."
+3,2017,AFOLU_excl_FOLU,,20.5,0,IMN/MINAE - INGEI 1990-2017 via PNUD,2022-01-19,Media,"El 20.5% corresponde a 2016, no a 2017; no debe usarse como cifra de 2017 sin verificacion adicional contra el informe primario."
+4,2017,Residuos,,,0,IMN/MINAE - INGEI 1990-2017,2021-12-01,Baja,Total del macrosector 2017 no localizado en esta sesion.
+5,2017,Total_nacional_excl_FOLU,14477.5,100.0,0,IMN/MINAE via PNUD Costa Rica,2022-01-19,Media,"Fuentes secundarias citan 14,477.x y 14,478 Gg CO2e sin decimal exacto verificable en esta sesion; usar 14477.5 solo como valor central aproximado, NO como cifra de precision para publicacion. Verificar contra informe primario IMN antes de citar con decimales."
+6,2017,FOLU,-2968.35,,1,IMN/MINAE via PNUD Costa Rica,2022-01-19,Alta,Absorcion neta (signo negativo ya aplicado).

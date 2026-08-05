@@ -1,0 +1,10 @@
+id,sector,nombre_supuesto,variacion_pct,variable_afectada,fuente_supuesto,confianza
+1,Transporte,Electrificacion 20% flota privada (-40% fI segmento H49),-20.0,f_I,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+2,Transporte,Modal shift 15% hacia transporte publico colectivo,-15.0,f_I,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+3,Transporte,Universalizacion Esc. B: +12% demanda movilidad Q1-Q2,12.0,y_DLS,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+4,Energia,Penetracion solar residencial 10% hogares (-5% demanda D35),-5.0,f_I,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+5,Energia,Eficiencia energetica en edificios -15% demanda D35,-15.0,f_I,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+6,Energia,Universalizacion Esc. B: +8% consumo electrico domestico Q1-Q2,8.0,y_DLS,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+7,Alimentacion,Reduccion 20% consumo de proteina animal (A01),-20.0,f_I,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+8,Alimentacion,"Reduccion 30% perdidas y desperdicio (A01-A03, C10-C12)",-30.0,y_DLS,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media
+9,Alimentacion,Universalizacion Esc. B: +18% demanda alimentaria Q1-Q2,18.0,y_DLS,"Estimacion propia EEIOA (sesion de trabajo previa, mayo 2026) - Otoya Chavarria et al.",Media

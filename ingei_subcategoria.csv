@@ -1,0 +1,5 @@
+id,anio,macrosector_ipcc,subcategoria,emisiones_gg_co2e,pct_del_macrosector,fuente,fecha_fuente,confianza
+1,2017,Energia,Transporte (% del total nacional de GEI),,42.0,IMN/MINAE via PNUD Costa Rica,2022-01-19,Alta
+2,2017,IPPU,Refrigeracion y aire acondicionado,633.7,,IMN/MINAE via PNUD Costa Rica,2022-01-19,Alta
+3,2017,AFOLU_excl_FOLU,Fermentacion enterica (% del sector agricultura),,62.3,IMN/MINAE via PNUD Costa Rica,2022-01-19,Media
+4,2017,Residuos,Disposicion de desechos solidos (% del sector residuos),,56.34,IMN/MINAE via PNUD Costa Rica,2022-01-19,Media

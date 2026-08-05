@@ -1,0 +1,9 @@
+id,codigo_actividad,categoria_dls,escenario,anio_referencia,demanda_mm_colones,fuente,confianza
+1,ALIM,ALIM,A,2017,1624000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
+2,AGUA,AGUA,A,2017,374000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
+3,ENER,ENER,A,2017,704000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
+4,VIV,VIV,A,2017,938000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
+5,TRAN,TRAN,A,2017,509000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
+6,EDU,EDU,A,2017,2803000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
+7,SALUD,SALUD,A,2017,2072000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
+8,TIC,TIC,A,2017,261000.0,"ENIGH 2018 (INEC) + gasto publico sectorial 2017 (Min. Salud, MIDEPLAN/BCCR)",Media
