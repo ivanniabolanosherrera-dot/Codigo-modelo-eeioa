@@ -1,16 +1,4 @@
-"""
-run_from_database.py
 
-Conecta dls_carbon_footprint_cr.db con eeioa_model.py y corre el pipeline
-completo para los Escenarios A y B, escribiendo los resultados de vuelta
-en las tablas resultado_huella y resultado_escenario_agregado.
-
-PRECONDICION: las tablas mip_actividad, mip_coeficiente_tecnico,
-intensidad_emision y y_dls_demanda deben estar completas (ver README.md,
-seccion "Como completar la base de datos"). Si se ejecuta antes de eso,
-el script se detiene con un mensaje explicito senalando que datos faltan,
-en vez de calcular con matrices incompletas.
-"""
 
 import sqlite3
 import sys
